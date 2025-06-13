@@ -27,7 +27,7 @@ async function getWeatherByCity() {
         `;
     } catch (err) {
         resultDiv.innerHTML = `<p style="color:red;">Error: ${err.message}</p> `;
-        // resultDiv.innerHTML = `<img src="/assets/message/not-found.png" style="width:200px; height:200px;">`
+        
     }
 }
 
